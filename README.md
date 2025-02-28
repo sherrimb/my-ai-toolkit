@@ -1,4 +1,4 @@
-# CodeBoxx AI Toolkit
+# Codeboxx AAI Student Lab
 
 Welcome to the **CodeBoxx AI Toolkit** repository! This is your **comprehensive resource** for mastering data science skills across the CodeBoxx Academy's Applied AI curriculum (AAI-101 through AAI-104). The repository is structured module-by-module to guide you seamlessly through increasingly advanced concepts.
 
@@ -41,16 +41,7 @@ This repository is organized by AAI modules (101-104), with common datasets and 
 │
 ├── common_data/                   # Datasets shared across modules
 │   └── elevator_datasets/         # For AAI-102/103 assignments
-│
-├── common_tools/                  # Reusable utilities & scripts
-│   └── helper_scripts/            # Conversion & utility scripts
-│
-├── misc/                          # Supplementary materials
-│   ├── my_spacy_model/            # Trained spaCy model files
-│   ├── spacy_examples/            # NLP examples
-│   └── uk_house_prices/           # Additional practice datasets
-│
-└── visualizations/                # Global visualization resources
+
 ```
 
 Each module follows a consistent structure, making it easy to navigate and find relevant materials as you progress through the curriculum.

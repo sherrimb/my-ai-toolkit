@@ -1,6 +1,6 @@
-# Pandas & AI Tools: Learning Repository
+# CodeBoxx AI Toolkit
 
-Welcome to the **Pandas & AI Tools** repository! This is your **comprehensive resource** for mastering data science skills across the CodeBoxx Academy's Applied AI curriculum (AAI-101 through AAI-104). The repository is structured module-by-module to guide you seamlessly through increasingly advanced concepts.
+Welcome to the **CodeBoxx AI Toolkit** repository! This is your **comprehensive resource** for mastering data science skills across the CodeBoxx Academy's Applied AI curriculum (AAI-101 through AAI-104). The repository is structured module-by-module to guide you seamlessly through increasingly advanced concepts.
 
 By working through these materials, you'll build skills in data manipulation, analysis, machine learning, and more using Jupyter notebooks and Python libraries like **Pandas**, **Matplotlib**, **spaCy**, and others.
 
@@ -13,12 +13,12 @@ This repository is organized by AAI modules (101-104), with common datasets and 
 ```
 .
 ├── AAI-101/                       # Introduction to AI Tools for Developers
+│   ├── air_quality_datasets/      # Air quality data files
 │   ├── data/                      # Module-specific datasets
 │   ├── notebooks/                 # Tutorial & practice notebooks
 │   │   ├── tutorials/             # Step-by-step Pandas tutorials
 │   │   └── worksheets/            # Practice problems & challenges
 │   ├── slides/                    # Course reference materials
-│   ├── spacy_examples/            # NLP tutorials
 │   └── visualizations/            # Generated charts & graphs
 │
 ├── AAI-102/                       # Machine Learning
@@ -46,9 +46,11 @@ This repository is organized by AAI modules (101-104), with common datasets and 
 │   └── helper_scripts/            # Conversion & utility scripts
 │
 ├── misc/                          # Supplementary materials
+│   ├── my_spacy_model/            # Trained spaCy model files
+│   ├── spacy_examples/            # NLP examples
 │   └── uk_house_prices/           # Additional practice datasets
 │
-└── README.md                      # You are here
+└── visualizations/                # Global visualization resources
 ```
 
 Each module follows a consistent structure, making it easy to navigate and find relevant materials as you progress through the curriculum.
@@ -76,18 +78,14 @@ This module introduces foundational tools for data manipulation and analysis:
 
 2. **Practice Worksheets** (`AAI-101/notebooks/worksheets/`):
    - `challenges_101.ipynb` - Practical challenges using student enrollment data
-   - `worksheet.ipynb` - Quick reference/cheat sheet for common operations
-   - `pandas_worksheet_1.ipynb` - Additional exercises
+   - `further_challenges_101.ipynb` - Additional practice problems using a **dataset of your choice!**
 
-3. **spaCy Examples** (`AAI-101/spacy_examples/`):
-   - Introduction to Natural Language Processing with `exploring_spacy.ipynb`
-
-4. **Datasets** (`AAI-101/data/`):
+3. **Datasets** (`AAI-101/data/` and `AAI-101/air_quality_datasets/`):
    - Student and enrollment data (`students.csv`, `enrollments.json`)
    - Titanic passenger data (`titanic.csv`)
-   - Air quality datasets
+   - Air quality datasets (various CSV files)
 
-5. **Visualizations** (`AAI-101/visualizations/`):
+4. **Visualizations** (`AAI-101/visualizations/`):
    - Example plots and charts created during tutorials
 
 ### AAI-102: Machine Learning
@@ -138,10 +136,9 @@ This module introduces advanced techniques for preparing data for ML models:
 3. **Practice with Challenges**:
    - After completing tutorials, move to `challenges_101.ipynb`
    - These exercises mirror real-world data tasks
-   - Use the provided datasets (`students.csv` and `enrollments.json`)
+   - Use the provided datasets in the `data` directory
 
 4. **Reference Materials**:
-   - Check `worksheet.ipynb` for quick syntax reminders
    - Review slide notes for conceptual explanations
 
 ### Path to Advanced Topics (AAI-102, AAI-103, AAI-104)
@@ -234,7 +231,7 @@ If you find issues or want to contribute improvements:
 ## Questions and Support
 
 - For specific questions about assignments, contact your CodeBoxx instructor
-- For technical issues with the repository, open an GitHub issue
+- For technical issues with the repository, open a GitHub issue
 - For general Pandas questions, search Stack Overflow or the official documentation
 
 ---

@@ -1,4 +1,4 @@
-# CodeBoxx AI Toolkit
+# Codeboxx AAI Student Lab
 
 Welcome to the **CodeBoxx AI Toolkit** repository! This is your **comprehensive resource** for mastering data science skills across the CodeBoxx Academy's Applied AI curriculum (AAI-101 through AAI-104). The repository is structured module-by-module to guide you seamlessly through increasingly advanced concepts.
 

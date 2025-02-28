@@ -1,6 +1,6 @@
 # Codeboxx AAI Student Lab
 
-Welcome to the **CodeBoxx AI Toolkit** repository! This is your **comprehensive resource** for mastering data science skills across the CodeBoxx Academy's Applied AI curriculum (AAI-101 through AAI-104). The repository is structured module-by-module to guide you seamlessly through increasingly advanced concepts.
+Welcome to the **CodeBoxx AAI Student Lab** repository! This is your **comprehensive resource** for mastering data science skills across the CodeBoxx Academy's Applied AI curriculum (AAI-101 through AAI-104). The repository is structured module-by-module to guide you seamlessly through increasingly advanced concepts.
 
 By working through these materials, you'll build skills in data manipulation, analysis, machine learning, and more using Jupyter notebooks and Python libraries like **Pandas**, **Matplotlib**, **spaCy**, and others.
 
